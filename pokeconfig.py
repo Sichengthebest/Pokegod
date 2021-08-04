@@ -17,7 +17,7 @@ def save_config():
          json.dump(CONFIG, configfile, indent=4,ensure_ascii=False)
 
 CONFIG = {}
-config_file = '/pokebot/poke.json'
+config_file = '/poke.json'
 
 run_path = os.getcwd()
 
