@@ -11,7 +11,9 @@ def start(update, context):
     context.bot.send_message(chat_id=update.effective_chat.id, text=msg)
 
 def help(update, context):
-    context.bot.send_message(chat_id=update.effective_chat.id, text="""Here's all my commands. Have fun!
+    context.bot.send_message(chat_id=update.effective_chat.id, text="""Current version: 1.2.3
+    
+Here's all my commands. Have fun!
 -------------------------------------------------
 /pokemon - Go catch pokemon!
 /pokebal - Check the amount of pokecoins you have.
