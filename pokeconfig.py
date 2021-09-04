@@ -14,7 +14,7 @@ def load_config():
 
 def save_config():
    with open(config_file, 'w') as configfile:
-         json.dump(CONFIG, configfile, indent=4,ensure_ascii=False)
+      json.dump(CONFIG, configfile, indent=4,ensure_ascii=False)
 
 CONFIG = {}
 config_file = '/poke.json'
